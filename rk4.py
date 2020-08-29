@@ -38,3 +38,11 @@ def rk4(f, t0, y0, h):
         y[i+1] = y[i] + (h * 1/6) *(f1 + 2*f2 + 2*f3 + f4)                
    
     return y
+
+# Sample ODE for approximation
+def model(t,y):
+    dydt = y
+    return dydt
+# Sample IVP for approximation
+t0 = 0
+y0 = 1
