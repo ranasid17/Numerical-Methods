@@ -6,9 +6,9 @@ from scipy.linalg import solveh_banded
 import matplotlib.pyplot as plt
 
 # Two point BVP integraters
-# solveBVP1 solves ODE of form, -u''(x) = f(x), 0<x<1, u(0) = u(1)= 0
-# solveBVP2 solves ODE of form, -u''(x)+u(x) = f(x), 0<x<1, u(0) = u(1) = 0
-# Sample ODEs provided at end 
+# solveBVP1 solves PDE of form, -u"(x) = f(x), 0 < x < 1, u(0) = u(1)= 0
+# solveBVP2 solves PDE of form, -u"(x) + u(x) = f(x), 0 < x < 1, u(0) = u(1) = 0
+# Sample PDEs provided at end 
 
 # Inputs 
 #   f : ODE, must be of specified form above
