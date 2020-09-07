@@ -2,7 +2,7 @@
 Goal: 
   1) Solve multiple classes of ODEs and PDEs numerically using common numerical methods 
   2) Graph the numerical solution 
-  2) Use Python as language of choice to demonstrate OOP ability
+  2) Use Python as language of choice 
   
 Contents: 
   1) Python functions for numerically solving common classes of ODEs and PDEs. 
